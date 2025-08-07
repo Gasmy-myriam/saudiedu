@@ -1,0 +1,12 @@
+# The CPU of the instance running your app.
+# Defaults to "1"
+cpu: 1
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+# You can add any secret environment variables needed by your app in .env
+# and then expose them here.
+# secrets:
+#   - secret: MY_SECRET
+#     environmentVariable: MY_SECRET_ENV_VAR
